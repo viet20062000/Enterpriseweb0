@@ -1,4 +1,7 @@
- {"post-install-cmd": [
+ {
+ 	"script":{
+ 	"post-install-cmd": [
      "php artisan clear-compiled",
-     "chmod -R 775 "
- ]}
+     "chmod -R 777 "
+
+ ]}}
