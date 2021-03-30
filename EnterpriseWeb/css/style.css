@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.sidebar {
+    background-color: #F8F9FA;
+    font-size: 1.25rem;
+    min-height: 800px;
+}
+
+.content {
+    min-height: 800px;
+    margin: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cmt-header {
+    font-size: 1.1rem;
+}
